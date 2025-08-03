@@ -1,6 +1,6 @@
 import { Toaster } from "@/components/ui/sonner"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { LogicBuilder, type LogicBuilderLabels, type CriteriaNode, type Item } from "@/components/logic-builder/LogicBuilder"
+import { LogicBuilder, type LogicBuilderLabels, type CriteriaNode } from "@/components/logic-builder/LogicBuilder"
 import { JsonPreview } from "@/components/JsonPreview"
 import { SaveLoadControls } from "@/components/SaveLoadControls"
 import { items } from "@/lib/data"

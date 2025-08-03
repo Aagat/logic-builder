@@ -141,16 +141,6 @@ interface CriteriaGroupProps {
 function CriteriaGroupComponent({ criteria, items, onChange, onDelete, level, labels }: CriteriaGroupProps) {
   const group = criteria as CriteriaGroup;
 
-  const getSelectedCriteriaIds = () => {
-    return group.conditions
-      .filter(condition => condition.type === 'criteria')
-      .map(condition => (condition as Criteria).itemId);
-  };
-
-  const availableItemsForAdd = items.filter(item =>
-    !getSelectedCriteriaIds().includes(item.id)
-  );
-
   const addCriteria = () => {
     const newCriteria: Criteria = { type: 'criteria', itemId: "", value: true };
     const newConditions = [...group.conditions, newCriteria];

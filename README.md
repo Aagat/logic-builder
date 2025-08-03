@@ -1,3 +1,5 @@
+> **Disclaimer**: This project is fully vibed and you should use it at your own risk.
+
 # React Logic Builder Component
 
 A flexible and reusable React component for building complex logical conditions. This component allows users to create nested criteria with AND/OR operators, making it ideal for creating advanced filters, rules engines, or any application requiring dynamic logic construction.
